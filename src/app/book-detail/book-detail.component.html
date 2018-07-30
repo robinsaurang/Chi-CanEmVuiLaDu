@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="bookDetail-img text-center">
+    <img src="./../assets/img/images2.jpg" alt="">
+  </div>
+  <div class="bookDetail-content">
+    <div class="row">
+      <div class="col-md-6">
+        <p>{{objCheckModel.ID}}</p>
+        <p>{{objCheckModel.Title}}</p>
+        <p>{{objCheckModel.Description}}</p>
+      </div>
+      <div class="col-md-6">
+        <p>{{objCheckModel.PageCount}}</p>
+        <p>{{objCheckModel.PublishDate}}</p>
+        <p>{{objCheckModel.Excerpt}}</p>
+      </div>
+    </div>
+    <div class="btnDetailClick text-center">
+      <button (click)="onDeleteBook(objCheckModel.ID)" class="btn btn-danger">Delete</button>
+    </div>
+
+  </div>
+
+</div>

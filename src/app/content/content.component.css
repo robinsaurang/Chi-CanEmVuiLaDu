@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+.item-img, .item-content{
+  float:left;
+}
+.item-img{
+  width: 30%;
+  padding-right:10px;
+  text-overflow: clip;
+}
+.item-img img{
+  width: 100%;
+  height:100px;
+}
+.item-content{
+  width: 70%;
+}
+.item__title{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.btnClick{
+  padding:50px 0;
+}
+.red{
+  color:red;
+}
+.item__title{
+  color: dodgerblue;
+  font-weight:700;
+  margin:0;
+}
+.modal-dialog-custom{
+  max-width: 800px;
+}
